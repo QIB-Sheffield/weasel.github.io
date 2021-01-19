@@ -1,8 +1,0 @@
-https://jekyllthemes.io/theme/just-the-docs
-https://github.com/pmarsceill/just-the-docs
-https://pmarsceill.github.io/just-the-docs/docs/ui-components
-https://pmarsceill.github.io/just-the-docs/
-https://jekyllrb.com/tutorials/convert-site-to-jekyll/
-
-https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages
-https://www.docslikecode.com/articles/github-pages-python-sphinx/
