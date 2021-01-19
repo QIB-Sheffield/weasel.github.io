@@ -1,1 +1,1 @@
-Weasel's website
+Github Page Weasel first draft
