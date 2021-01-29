@@ -9,6 +9,8 @@ permalink: /
 
 Weasel is an environment for developing, testing and deploying quantitative medical imaging pipelines. 
 
+![image](https://github.com/QIB-Sheffield/weasel.github.io/blob/main/media/Challenge.jpg)
+
 
 # Website construction Tutorial
 
