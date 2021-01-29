@@ -11,8 +11,6 @@ Weasel is a Python environment for developing, testing and deploying quantitativ
 
 <img src="https://github.com/QIB-Sheffield/weasel.github.io/blob/main/media/Challenge.jpg" alt="Challenge">
 
-<img src="https://drive.google.com/file/d/1Xe5L75JPNxrNA-ZhSdexQ_A3tWq4WWdK/view?usp=sharing" alt="Challenge google">
-
 # Website construction Tutorial
 
 You can find a quick guide below on how to write .md files for site construction.
