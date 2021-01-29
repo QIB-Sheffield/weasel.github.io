@@ -12,6 +12,15 @@ Weasel is a Python environment for developing, testing and deploying quantitativ
 ![image](https://github.com/QIB-Sheffield/weasel.github.io/blob/main/media/Challenge.jpg)
 
 <iframe 
+  class="embedded-video-16-9" 
+  src="https://www.youtube.com/embed/-TMkZzzPZBU" 
+  frameborder="0" 
+  width="700"
+  height="300"
+  allowfullscreen=""
+></iframe>
+
+<iframe 
   src="https://github.com/QIB-Sheffield/weasel.github.io/blob/main/media/Challenge.jpg" 
   frameborder="0" 
   width="700"
