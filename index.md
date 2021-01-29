@@ -9,17 +9,9 @@ permalink: /
 
 Weasel is a Python environment for developing, testing and deploying quantitative medical imaging applications. 
 
+<img src="https://github.com/QIB-Sheffield/weasel.github.io/blob/main/media/Challenge.jpg" alt="Challenge">
+<img src="https://drive.google.com/file/d/1Xe5L75JPNxrNA-ZhSdexQ_A3tWq4WWdK/view?usp=sharing" alt="Challenge google">
 
-<iframe 
-  class="embedded-video-16-9" 
-  src="https://www.youtube.com/embed/-TMkZzzPZBU" 
-  frameborder="0" 
-  width="700"
-  height="300"
-  allowfullscreen=""
-></iframe>
-
-<img class="center" src="https://github.com/QIB-Sheffield/weasel.github.io/blob/main/media/Challenge.jpg">
 
 # Website construction Tutorial
 
