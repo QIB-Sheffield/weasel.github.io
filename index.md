@@ -7,7 +7,7 @@ permalink: /
 ---
 # Weasel
 
-/Insert text here describing Weasel/
+Weasel is an environment for developing, testing and deploying quantitative medical imaging pipelines. 
 
 
 # Website construction Tutorial
