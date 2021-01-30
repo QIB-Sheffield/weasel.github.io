@@ -37,10 +37,10 @@ If you are a method developer, and you have a package with some new image proces
 
 ![](/media/Approach.png)
 
-You can wrap your prototype code into `weasel` in 3 easy steps:
+You can wrap your Python prototype code into `weasel` in 3 easy steps:
 
-[STEP 1] Use `weasel`'s intuitive, built-in scripting language to create a `weasel` pipeline that can you maintain locally or post to the `weasel` pipeline library to share with others.
+**[STEP 1] Script** Use `weasel`'s intuitive, built-in scripting language to create a `weasel` pipeline that can you maintain locally or post to the `weasel` pipeline library to share with others.
 
-[STEP 2] Use `weasel`'s builder module to assemble your pipelines along with any others you may find in the `weasel` pipeline library into a `weasel` configuration. If you are testing the method as part of an ongoing development - you can stop here. Run the configuration from source to apply your code to DICOM data, visualise the results, extract data etc.
+**[STEP 2] Build** Use `weasel`'s builder module to assemble your pipelines along with any others you may find in the `weasel` pipeline library into a `weasel` configuration. If you are testing the method as part of an ongoing development - you can stop here. Run the configuration from source to apply your code to DICOM data, visualise the results, extract data etc.
 
-[STEP 3] Use `weasel`'s compiler to created a wrapper that allows you to distribute your `weasel` configuration as a single file, and will allow others to run it and apply your methods by simply downloading and running the wrapper. Weasel has a permissive license meaning you can distribute these wrappers as part of your package.
+**[STEP 3] Distribute** Use `weasel`'s compiler to created a wrapper that allows you to distribute your `weasel` configuration as a single file, and will allow others to run it and apply your methods by simply downloading and running the wrapper. Weasel has a permissive license meaning you can distribute these wrappers as part of your package.
