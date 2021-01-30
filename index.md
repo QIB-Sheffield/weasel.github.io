@@ -35,10 +35,12 @@ Alternatively, you can browse the `weasel` pipeline library and customize a `wea
 
 If you are a method developer, and you have a package with some new image processing algorithm writting in Python, then you can wrap these methods up into weasel in 3 easy steps. You can then distribute the `weasel` wrapper along with your code so others can apply your methods on their DICOM data directly through the `weasel` DICOM viewer. `weasel` is available under a permissive Apache 2.0 license, allowing you to distribute the wrapper on your own terms.
 
-![](/media/Approach.jpg)
+![](/media/Approach.png)
 
-You can wrap your code into `weasel` in 3 easy steps:
+You can wrap your prototype code into `weasel` in 3 easy steps:
 
-1. Use `weasel`'s intuitive, built-in scripting language to create a `weasel` pipeline that can you maintain locally, or post to the `weasel` pipeline library to share with others.
+[STEP 1] Use `weasel`'s intuitive, built-in scripting language to create a `weasel` pipeline that can you maintain locally or post to the `weasel` pipeline library to share with others.
 
-2. 
+[STEP 2] Use `weasel`'s builder module to assemble your pipelines along with any others you may find in the `weasel` pipeline library into a `weasel` configuration. If you are testing the method as part of an ongoing development - you can stop here. Run the configuration from source to apply your code to DICOM data, visualise the results, extract data etc.
+
+[STEP 3] Use `weasel`'s compiler to created a wrapper that allows you to distribute your `weasel` configuration as a single file, and will allow others to run it and apply your methods by simply downloading and running the wrapper. Weasel has a permissive license meaning you can distribute these wrappers as part of your package.
