@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contributors
+title: About
 nav_order: 5
 description: "About weasel"
 ---
