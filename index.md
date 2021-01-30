@@ -13,15 +13,17 @@ permalink: /
 
 ![](/media/Challenge.jpg)
 
+# Who can use Weasel?
+
 `weasel` is for you if:
 
-- You are developing methods for processing of medical images, and you want to test these on clinical data, to visualise the results, or to integrate them in clinical studies. 
+**You are developing methods for processing of medical images, and you want to test these on clinical data, to visualise the results, or to integrate them in clinical studies.**
 
 `weasel` will offer you an easy way to wrap your algorithms into a platform that integrates seamlessly with DICOM databases (read and write), and includes graphical interfaces for visualising multi-dimensional imaging data, defining regions of interest, or extracting quantitative data. 
 
 If you want to share your methods with the wider community, you can integrate `weasel` wrappers into the distribution of your code, allowing clinical users to run your methods on their clinical data through the built-in graphical interface. 
 
-- You run clinical studies involving medical imaging and are looking to integrate quantitative endpoints that are not available as commercial tools or as plugins for standard DICOM image viewers.
+**You run clinical studies involving medical imaging and are looking to integrate quantitative endpoints that are not available as commercial tools or as plugins for standard DICOM image viewers.**
 
 `weasel` provides your collaborators that develop new methods and easy way to package them up in a `weasel` wrapper for use by an image analyst or clinical user through a graphical interface including a basic DICOM viewer. 
 
