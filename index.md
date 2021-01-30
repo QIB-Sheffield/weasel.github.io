@@ -44,3 +44,13 @@ You can wrap your Python prototype code into `weasel` in 3 easy steps:
 **[2] Build:** Use `weasel`'s builder module to assemble your pipelines along with any others you may find in the `weasel` pipeline library into a `weasel` configuration. If you are testing the method as part of an ongoing development - you can stop here. Run the configuration from source to apply your code to DICOM data, visualise the results, extract data etc.
 
 **[3] Distribute:** Use `weasel`'s compiler to created a wrapper that allows you to distribute your `weasel` configuration as a single file, and will allow others to run it and apply your methods by simply downloading and running the wrapper. Weasel has a permissive license meaning you can distribute these wrappers as part of your package.
+
+# How do I get started?
+
+Whether you are a clinical user or a developer, the best way to start familarising yourself with `weasel` is by downloading the demo wrapper from the library, opening up some DICOM data, and trying out some of the analysis. Detailed instructions and tutorials are provided **here**.
+
+If you do not have DICOM data to work with, you can download some from the library of data samples provided, or work with a freely available dataset such as the [RIDER](https://wiki.cancerimagingarchive.net/display/Public/RIDER+Collections) datasets.
+
+Next you can try building some different `weasel` configurations by assembling pipelines from the library using the configuration builder. Detailed instructions and examples are provided **here**.
+
+Finally, you can try using `weasel` scripting to wrap one of your own functions up into a `weasel` pipeline and adding it your configuration. Detailed instructions and tutorials with simple examples are provided **here**.
