@@ -1,6 +1,6 @@
 ---
 layout: default
-title: User
+title: Configurations
 nav_order: 3
 description: "Demo"
 ---

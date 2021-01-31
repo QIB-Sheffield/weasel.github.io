@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Developer
+title: Pipelines
 nav_order: 4
 ---
 
