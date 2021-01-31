@@ -1,5 +1,5 @@
 ---
 layout: default
-title: wrappers
+title: Wrappers
 nav_order: 2
 ---
