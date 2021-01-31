@@ -51,6 +51,6 @@ Whether you are a clinical user or a developer, the best way to start familarisi
 
 Next you can try building some different `weasel` configurations by assembling pipelines from the library using the configuration builder. Detailed instructions and examples are provided [here](https://qib-sheffield.github.io/weasel.github.io/configurations.html).
 
-Finally, you can try using `weasel` scripting to wrap one of your own functions up into a `weasel` pipeline and adding it your configuration. Detailed instructions and tutorials with simple examples are provided [here](https://qib-sheffield.github.io/weasel.github.io/pipelibes.html).
+Finally, you can try using `weasel` scripting to wrap one of your own functions up into a `weasel` pipeline and adding it your configuration. Detailed instructions and tutorials with simple examples are provided [here](https://qib-sheffield.github.io/weasel.github.io/pipelines.html).
 
-_Note: you will need some DICOM data. If you do not have any, you can download some from the library of data samples provided, or work with a freely available dataset such as[RIDER](https://wiki.cancerimagingarchive.net/display/Public/RIDER+Collections)._
+_Note: you will need some DICOM data. If you do not have any, you can download some from the library of data samples provided, or work with a freely available dataset such as [RIDER](https://wiki.cancerimagingarchive.net/display/Public/RIDER+Collections)._
