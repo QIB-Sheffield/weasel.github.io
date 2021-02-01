@@ -6,7 +6,7 @@ nav_order: 2
 
 # Getting started with weasel wrappers
 
-if you want to try out an existing `weasel` wrapper, simply select a **weasel demo wrapper** from the **wrap store**, download and double-click to start. The interface should be fairly selfexplanatory. If you are looking for some tips and tricks - please check out the tutorials below.
+If you want to try out an existing `weasel` wrapper, simply select a **weasel demo wrapper** from the **wrap store**, download and double-click to start. The interface should be fairly selfexplanatory. If you are looking for some tips and tricks - please check out the tutorials below.
 
 _You will need some DICOM data to try `weasel`. If you do not have any, you can download some from the library of data samples provided [TBD], or download a freely available dataset such as [RIDER](https://wiki.cancerimagingarchive.net/display/Public/RIDER+Collections)._
 
