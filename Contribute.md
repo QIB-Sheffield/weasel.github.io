@@ -14,7 +14,7 @@ The `weasel` website is a [GitHub Page](https://github.com/QIB-Sheffield/weaselw
 You can find a quick guide below on how to write .md files for site construction. There is very good documentation on "Just-the-docs" at https://pmarsceill.github.io/just-the-docs/
 Also, have a look at the files on Github at https://github.com/pmarsceill/just-the-docs
 
-## Welcome to GitHub Pages
+### GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/QIB-Sheffield/weaselweb/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 

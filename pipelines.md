@@ -4,48 +4,44 @@ title: Pipelines
 nav_order: 4
 ---
 
-# Website construction Tutorial
+# Script your own weasel pipeline
 
-You can find a quick guide below on how to write .md files for site construction.
-For this specific Layout "Just-the-docs", there's very good documentation at https://pmarsceill.github.io/just-the-docs/
-Also, have a look at the files on Github at https://github.com/pmarsceill/just-the-docs
+To script your own `weasel` pipelines, you need to have Python installed, then follow the installation instructions below to install `weasel`.
 
-# Welcome to GitHub Pages
+Once installed, the best way to start is by first going through the tutorials on scripting pipelines with toy applications. 
 
-You can use the [editor on GitHub](https://github.com/QIB-Sheffield/weasel.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Then pick one of your own Python functions that you would like to wrap into `weasel`. Best start simple - an image filter perhaps, or simple image transformation. Then go to the weasel pipeline store, select a pipeline that does something similar, save it under a different name and modify it for your needs. If you are looking for specific functions - check the **weasel scripting reference manual**.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Installation instructions
 
-### Markdown
+# The weasel pipeline store
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Weasel pipelines can be distributed independently via the **pipeline store**, which includes free pipelines including demo's provided by the `weasel` developers and any uploaded by the community. 
 
-```markdown
-Syntax highlighted code block
+The terms and conditions of distribution are set by the owner of the pipeline and some may choose to add restrictions to use or redistribution. 
 
-# Header 1
-## Header 2
-### Header 3
+We encourage developers of new pipelines to post these on the pipeline store to enhance visibility of their work and add to the community of `weasel` users, but this is not required.
 
-- Bulleted
-- List
+# Tutorials on scripting weasel pipelines
 
-1. Numbered
-2. List
+## Toy pipelines
 
-**Bold** and _Italic_ and `Code` text
+### Hello world
 
-[Link](url) and ![Image](src)
-```
+### Invert image
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Simple pipelines
 
-### Jekyll Themes
+### Gaussian filter
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/QIB-Sheffield/weasel.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Mask image
 
-### Support or Contact
+## Some more elaborate pipelines
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### UKRIN B1-mapping
+
+# Weasel scripting: reference manual
+
+
 
 
