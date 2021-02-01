@@ -2,6 +2,8 @@
 layout: default
 title: About
 nav_order: 6
+header: yes
+header_xl: media/XNAT-LOGO.png
 description: "About weasel"
 ---
 
