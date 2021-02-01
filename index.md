@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Den
 nav_order: 1
 description: "Prototyping medical imaging processing."
 permalink: /
@@ -54,5 +54,3 @@ Whether you are a clinical user or a developer, the best way to familarise yours
 **[2] Build your own:** Next you can try building some different `weasel` configurations by assembling pipelines from the library using the configuration builder. Detailed instructions and examples are provided [here](https://qib-sheffield.github.io/weaselweb/configurations.html).
 
 **[3] Script a pipeline:** Finally, you can try using `weasel` scripting to wrap one of your own functions up into a `weasel` pipeline and ad it your configuration. Detailed instructions and tutorials with simple examples are provided [here](https://qib-sheffield.github.io/weaselweb/pipelines.html).
-
-_Note: you will need some DICOM data. If you do not have any, you can download some from the library of data samples provided, or work with a freely available dataset such as [RIDER](https://wiki.cancerimagingarchive.net/display/Public/RIDER+Collections)._
