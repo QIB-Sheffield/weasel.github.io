@@ -5,7 +5,7 @@ nav_order: 1
 description: "Prototyping medical imaging processing."
 permalink: /
 ---
-# What is Weasel?
+# What is Weasel? HALLOOOOOOOOOO
 
 **Weasel is a Python environment for developing and deploying quantitative medical imaging applications.** 
 
