@@ -26,3 +26,8 @@ TRISTAN is an international private-public consortium funded by the [Innovative 
   allowfullscreen=""
 ></iframe>
 
+## Weasel quotes
+
+'I have come up with a plan so cunning you could stick a tail on it and call it a weasel.' - Blackadder from the Blackadder the Third TV series
+
+
