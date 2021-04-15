@@ -8,17 +8,44 @@ nav_order: 5
 
 This page lists methods for scripting pipelines in `weasel`. For examples please see the pipeline tutorials page.
 
+
+
 *Weasel methods* are methods of the `weasel` object, which is available in any script as the argument of main(weasel). 
 
 Weasel methods can be used to retrieve DICOM data selected by the user, or to update the weasel interface or launch dedicated displays from within a pipeline.
 
-*DICOM object methods* are methods to retrieve and update DICOM data elements. 
+*DICOM object methods* are methods to retrieve and modify DICOM data. 
+
+# In this section
+
+```markdown
+# Retrieve DICOM objects
+weasel.images()
+weasel.series()
+weasel.studies()
+weasel.subjects()
+# DICOM object methods
+dicom_object.copy()
+dicom_object.delete()
+dicom_object.merge()
+dicom_object.children()
+dicom_object.parent()
+# Messaging to the user
+weasel.message()
+weasel.close_message()
+weasel.information()
+weasel.question()
+weasel.progress_bar()
+weasel.update_progress_bar()
+weasel.close_progress_bar()
+# Launching and updating displays
+weasel.refresh()
+weasel.close_all_windows()
+```
 
 # Retrieve DICOM objects
 
 A collection of methods to retrieve data in the DICOM hierarchy that are checked by the user in the tree view. 
-
-## Summary
 
 ```markdown
 weasel.images()
@@ -43,8 +70,6 @@ subjects = weasel.subjects()
 A collection of methods to retrieve and update DICOM data elements. 
 
 In the definitions below, `dicom_object` can be a list of `images`, `series`, `studies` or `subjects`, or else a single item in one of those lists.
-
-## Summary
 
 ```markdown
 dicom_object.copy()
@@ -93,8 +118,6 @@ dicom_object.parent()
 ```
 
 # Messaging to the user
-
-## Summary
 
 ```markdown
 weasel.message()
