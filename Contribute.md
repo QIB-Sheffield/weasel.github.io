@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contribute
-nav_order: 5
+nav_order: 6
 ---
 # How can I contribute to weasel?
 
