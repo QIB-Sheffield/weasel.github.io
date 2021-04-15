@@ -22,15 +22,24 @@ A collection of methods to retrieve data in the DICOM hierarchy that are checked
 
 # Get the images checked by the user. 
 images = weasel.images()
-
 # Get the series checked by the user. 
 series = weasel.series()
-
 # Get the studies checked by the user. 
 studies = weasel.studies()
-
 # Get the subjects checked by the user. 
 subjects = weasel.subjects()
+
+```
+# DICOM data methods
+A collection of methods to retrieve and update DICOM data elements. 
+
+In the definitions below, *dicom_object* can be a list of images, series, studies or subjects, or else a single item in one fo those lists.
+
+```markdown
+# Create a copy of the DICOM object
+new_dicom_object = dicom_object.copy()	  
+
+
 
 ```
 
@@ -66,6 +75,13 @@ weasel.update_progress_bar(index=0)
 
 # Close an existing progress bar
 weasel.close_progress_bar()
+```
+
+## Launching and updating displays
+
+A collection of methods to launch or manipulating dedicated displays.
+
+```markdown
 
 # Refresh weasel. 
 # This will update the state of all displays that are currently open.
@@ -78,7 +94,7 @@ weasel.close_all_windows()
 ```
 
 
-# Dicom project methods
+
 
 
 
