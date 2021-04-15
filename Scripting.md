@@ -8,15 +8,11 @@ nav_order: 5
 
 This page lists methods for scripting pipelines in `weasel`. For examples please see the pipeline tutorials page.
 
-
-
 *Weasel methods* are methods of the `weasel` object, which is available in any script as the argument of main(weasel). 
 
 Weasel methods can be used to retrieve DICOM data selected by the user, or to update the weasel interface or launch dedicated displays from within a pipeline.
 
 *DICOM object methods* are methods to retrieve and modify DICOM data. 
-
-# In this section
 
 ```markdown
 # Retrieve DICOM objects
@@ -53,7 +49,6 @@ weasel.series()
 weasel.studies()
 weasel.subjects()
 ```
-## Examples
 
 ```markdown
 images = weasel.images()
@@ -78,39 +73,38 @@ dicom_object.merge()
 dicom_object.children()
 dicom_object.parent()
 ```
-## Examples
 
 ```markdown
 new_dicom_object = dicom_object.copy()
 # Create a copy of the DICOM object
-# Applies to: 
+# Defined for: 
 # 	images (single or list)
 #	series (single or list)
 #	studies (single or list)
 #	subjects (single or list)
 dicom_object.delete()	 
 # Delete the DICOM object 
-# Applies to: 
+# Defined for: 
 # 	images (single or list)
 #	series (single or list)
 #	studies (single or list)
 #	subjects (single or list)
 dicom_object.merge()
 # Merge a list of DICOM objects into a new object
-# Applies to: 
+# Defined for: 
 # 	images (list)
 #	series (list)
 #	studies (list)
 #	subjects (list)
 dicom_object.children()
 # Get a list of children
-# Applies to: 
+# Defined for: 
 #	series (single or list)
 #	studies (single or list)
 #	subjects (single or list)
 dicom_object.parent()
 # Get the parent object
-# Applies to: 
+# Defined for: 
 # 	images (single or list)
 #	series (single or list)
 #	studies (single or list)
@@ -128,7 +122,6 @@ weasel.progress_bar()
 weasel.update_progress_bar()
 weasel.close_progress_bar()
 ```
-## Examples
 
 ```markdown
 weasel.message(msg="Hi there! Please be patient while I work this out", title="Totally pointless message")
@@ -159,13 +152,10 @@ weasel.close_progress_bar()
 
 A collection of methods to launch or manipulate dedicated displays.
 
-## Summary
-
 ```markdown
 weasel.refresh()
 weasel.close_all_windows()
 ```
-## Examples
 
 ```markdown
 weasel.refresh()
