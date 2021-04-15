@@ -89,20 +89,20 @@ dicom_object.delete()
 #	series (single or list)
 #	studies (single or list)
 #	subjects (single or list)
-dicom_object.merge()
+new_dicom_object = dicom_object.merge()
 # Merge a list of DICOM objects into a new object
 # Defined for: 
 # 	images (list)
 #	series (list)
 #	studies (list)
 #	subjects (list)
-dicom_object.children()
+new_dicom_object = dicom_object.children()
 # Get a list of children
 # Defined for: 
 #	series (single or list)
 #	studies (single or list)
 #	subjects (single or list)
-dicom_object.parent()
+new_dicom_object = dicom_object.parent()
 # Get the parent object
 # Defined for: 
 # 	images (single or list)
