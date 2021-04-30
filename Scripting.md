@@ -37,6 +37,7 @@ weasel.close_progress_bar()
 # Launching and updating displays
 weasel.refresh()
 weasel.close_all_windows()
+weasel.user_input()
 ```
 
 # Retrieve DICOM objects
@@ -155,6 +156,7 @@ A collection of methods to launch or manipulate dedicated displays.
 ```markdown
 weasel.refresh()
 weasel.close_all_windows()
+weasel.user_input()
 ```
 
 ```markdown
@@ -164,6 +166,9 @@ weasel.refresh()
 # A refresh is typically done at the of a processing pipeline, or at intermediate stages of very long pipelines.
 weasel.close_all_windows()
 # Close all open windows, except for the tree view.
+weasel.user_input()
+# Widget for getting input from the user.
+
 ```
 
 
