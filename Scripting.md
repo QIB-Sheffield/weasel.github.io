@@ -64,6 +64,15 @@ subjects = weasel.subjects()
 # Get the subjects checked by the user. 
 ```
 
+# Write DICOM
+
+```markdown
+dicom_object[`label`] = `value`
+# Overwrite DICOM data element specified by `label` with `value`. Here `label` is either a DICOM keyword or a `(group, element)` pair of hexadecimal tags. Examples:
+    dicom_object["SliceLocation"] = 10.3
+    dicom_object["SeriesDescription"] = "New Series"
+``` 
+
 # DICOM object methods
 A collection of methods to retrieve and update DICOM data elements. 
 
