@@ -12,6 +12,7 @@ This page lists methods for scripting pipelines in `weasel`. For examples please
 
 Weasel methods can be used to retrieve DICOM data selected by the user, or to update the weasel interface or launch dedicated displays from within a pipeline.
 
+
 *DICOM object methods* are methods to retrieve and modify DICOM data. 
 
 ```markdown
@@ -68,7 +69,8 @@ subjects = weasel.subjects()
 
 ```markdown
 dicom_object[`label`] = `value`
-# Overwrite DICOM data element specified by `label` with `value`. Here `label` is either a DICOM keyword or a `(group, element)` pair of hexadecimal tags. Examples:
+# Overwrite DICOM data element specified by `label` with `value`. 
+Here `label` is either a DICOM keyword or a `(group, element)` pair of hexadecimal tags. Examples:
     dicom_object["SliceLocation"] = 10.3
     dicom_object["SeriesDescription"] = "New Series"
 ``` 
