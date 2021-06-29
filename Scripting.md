@@ -67,6 +67,8 @@ subjects = weasel.subjects()
 
 # Write DICOM
 
+A collection of method to write to DICOM files.
+
 ```markdown
 dicom_object[label] = value
 # Overwrite DICOM data element specified by `label` with `value`. 
