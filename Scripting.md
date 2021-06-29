@@ -26,6 +26,8 @@ dicom_object.delete()
 dicom_object.merge()
 dicom_object.children()
 dicom_object.parent()
+# Write DICOM 
+dicom_object[KeyWord] = value
 # Messaging to the user
 weasel.message()
 weasel.close_message()
