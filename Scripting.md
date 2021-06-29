@@ -68,10 +68,12 @@ subjects = weasel.subjects()
 # Write DICOM
 
 ```markdown
-dicom_object[`label`] = `value`
+dicom_object[label] = value
 # Overwrite DICOM data element specified by `label` with `value`. 
-Here `label` is either a DICOM keyword or a `(group, element)` pair of hexadecimal tags. Examples:
+Here `label` is either a DICOM keyword or a `(group, element)` pair of hexadecimal tags. 
+Examples:
     dicom_object["SliceLocation"] = 10.3
+    dicom_object[(0x0020, 0x0013)] = 10.3
     dicom_object["SeriesDescription"] = "New Series"
 ``` 
 
