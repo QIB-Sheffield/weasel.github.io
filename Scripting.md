@@ -73,6 +73,7 @@ A collection of methods to write to DICOM files.
 dicom_object[label] = value
 # Overwrite DICOM data element specified by `label` with `value`. 
 Here `label` is either a DICOM keyword or a `(group, element)` pair of hexadecimal tags. 
+For information regarding DICOM keywords or attributes, see https://dicom.innolitics.com/ciods/mr-image
 Examples:
     dicom_object["SliceLocation"] = 10.3
     dicom_object[(0x0020, 0x0013)] = 10.3
