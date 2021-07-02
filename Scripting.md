@@ -78,6 +78,17 @@ Examples:
     dicom_object[(0x0020, 0x0013)] = 10.3
     dicom_object["SeriesDescription"] = "New Series"
 ``` 
+# Read DICOM
+A collection of method to read DICOM files.
+
+```markdown
+list = dicom_object[label] 
+single_value = dicom_object[label][0]
+
+Here `label` is either a DICOM keyword or a `(group, element)` pair of hexadecimal tags. 
+Examples
+    series_list = dicom_object["SeriesDescription"] 
+``` :
 
 # DICOM object methods
 A collection of methods to retrieve and update DICOM data elements. 
