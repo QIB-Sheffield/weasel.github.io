@@ -39,6 +39,7 @@ weasel.update_progress_bar()
 weasel.close_progress_bar()
 # Launching and updating displays
 weasel.refresh()
+Refreshes the tree view.
 weasel.close_all_windows()
 weasel.user_input()
 ```
@@ -91,6 +92,8 @@ Examples:
     series_list = weasel.series()
     for series in series_list:
         series_description = series["SeriesDescription"] [0]
+        list_of_images = series.children     
+        
 ``` 
 
 # DICOM object methods
