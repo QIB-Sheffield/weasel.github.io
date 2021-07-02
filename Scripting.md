@@ -67,7 +67,7 @@ subjects = weasel.subjects()
 
 # Write DICOM
 
-A collection of method to write to DICOM files.
+A collection of methods to write to DICOM files.
 
 ```markdown
 dicom_object[label] = value
@@ -79,7 +79,7 @@ Examples:
     dicom_object["SeriesDescription"] = "New Series"
 ``` 
 # Read DICOM
-A collection of method to read DICOM files.
+A collection of methods to read DICOM files.
 
 ```markdown
 list = dicom_object[label] 
@@ -88,7 +88,7 @@ single_value = dicom_object[label][0]
 Here `label` is either a DICOM keyword or a `(group, element)` pair of hexadecimal tags. 
 Examples
     series_list = dicom_object["SeriesDescription"] 
-``` :
+``` 
 
 # DICOM object methods
 A collection of methods to retrieve and update DICOM data elements. 
