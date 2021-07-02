@@ -86,8 +86,10 @@ list = dicom_object[label]
 single_value = dicom_object[label][0]
 
 Here `label` is either a DICOM keyword or a `(group, element)` pair of hexadecimal tags. 
-Examples
-    series_list = dicom_object["SeriesDescription"] 
+Examples:
+    series_list = weasel.series()
+    for series in series_list:
+        series_description = series["SeriesDescription"] [0]
 ``` 
 
 # DICOM object methods
